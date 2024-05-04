@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Ishan0121
 - 👀 I’m interested in programming
-- 🌱 I’m currently learning C
+- 🌱 I’m currently learning C language
  
 
 <!---

@@ -26,13 +26,3 @@
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=ishan0121&show_icons=true&locale=en" alt="ishan0121" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=ishan0121&" alt="ishan0121" /></p>
-
-
-[![GitHub stats][stats-card]][github-overview-url]
-[![Top languages][top-languages-card]][github-overview-url]
-
-[stats-card]: https://github-readme-stats.vercel.app/api?username=sorairolake&show_icons=true&theme=ayu-mirage
-[top-languages-card]: https://github-readme-stats.vercel.app/api/top-langs/?username=sorairolake&theme=ayu-mirage
-[github-overview-url]: https://github.com/sorairolake
-[SorairoLake's home page]: https://sorairolake.github.io/
-[keys.openpgp.org]: https://keys.openpgp.org/search?q=716EDD2362B12C9F88059B4717CE07244B595822

@@ -26,3 +26,32 @@
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=ishan0121&show_icons=true&locale=en" alt="ishan0121" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=ishan0121&" alt="ishan0121" /></p>
+
+
+
+<a href="https://github.com/ishan0121">
+  <img align="center" width="49%" src="./header.svg" />
+</a>
+<br/>
+<a href="https://github.com/ishan0121">
+  <img align="center" width="49%" src="./repositories.svg" />
+</a>
+<a href="https://github.com/ishan0121">
+  <img align="center" width="49%" src="./acti_comm.svg" />
+</a>
+
+<a href="https://github.com/ishan0121">
+  <img align="center" width="49%" src="./iso_calender.svg" />
+</a>
+
+<a href="https://github.com/ishan0121">
+    <img align="center" width="49%" src="./issue_pr_lang.svg" />
+</a>
+
+<a href="https://github.com/ishan0121">
+  <img align="center" width="49%" src="./github-habits.svg" />
+</a>
+<a href="https://github.com/ishan0121">
+    <img align="center" width="49%" src="./achievements.svg" />
+</a>
+

@@ -3,6 +3,8 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=ishan0121&label=Profile%20views&color=0e75b6&style=flat" alt="ishan0121" /> </p>
 
+![Stars](https://img.shields.io/github/stars/keyitdev/sddm-astronaut-theme?color=dd864a&labelColor=1b1b25&style=for-the-badge)
+
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=ishan0121&theme=radical&no-frame=false&no-bg=false&margin-w=4)
 

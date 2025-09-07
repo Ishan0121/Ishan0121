@@ -1,3 +1,4 @@
+<!--
 <h1 align="center">Hi 👋, I'm Ishan Maiti</h1>
 <h3 align="center">A passionate developer from India</h3>
 
@@ -38,3 +39,196 @@
 <p align="center">
  <img width="1000" src="assets/github-snake.svg" alt="snake"/>
 </p>
+-->
+
+
+<!-- Header -->
+<h1 align="center">Hi 👋, I'm Ishan</h1>
+<h3 align="center">A passionate developer from India</h3>
+
+<div align="center">
+  <h1>🚀 Welcome to My GitHub Profile 🚀</h1>
+  <h3>Building the future, one commit at a time</h3>
+</div>
+
+<!-- ASCII Art -->
+```
+
+██╗  ██╗███████╗██╗     ██╗      ██████╗     ██╗    ██╗ ██████╗ ██████╗ ██╗     ██████╗    ██╗
+██║  ██║██╔════╝██║     ██║     ██╔═══██╗    ██║    ██║██╔═══██╗██╔══██╗██║     ██╔══██╗   ██║
+███████║█████╗  ██║     ██║     ██║   ██║    ██║ █╗ ██║██║   ██║██████╔╝██║     ██║  ██║   ██║
+██╔══██║██╔══╝  ██║     ██║     ██║   ██║    ██║███╗██║██║   ██║██╔══██╗██║     ██║  ██║   ╚═╝
+██║  ██║███████╗███████╗███████╗╚██████╔╝    ╚███╔███╔╝╚██████╔╝██║  ██║███████╗██████╔╝   ██╗
+╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝ ╚═════╝      ╚══╝╚══╝  ╚═════╝ ╚═╝  ╚═╝╚══════╝╚═════╝    ╚═╝
+
+```
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=header"/>
+
+
+<!-- About -->
+<div align="center">
+
+### 👾 About Me  
+🌱 Exploring **AI/LLMs, Agents, and Chatbots**  
+🐧 Living the **Linux + Open Source** life  
+🛠️ Into **System Design, Backend Dev, and Automation**  
+🎮 Loves mixing tech with **games, anime, and sci-fi worlds**
+
+</div>
+
+<!-- Professional CTA -->
+<p align="center">
+  <strong>🚀 Open to exciting opportunities!</strong><br>
+  I'm always looking for interesting projects and collaborations.
+  <br><br>
+  <a target="_blank" href="https://Ishan0121.github.io/Portfolio/">
+    <img src="https://img.shields.io/badge/View%20My-Portfolio-orange?style=for-the-badge" alt="Portfolio"/>
+  </a>
+  <a target="_blank" href="https://Ishan0121.github.io/portfolio2.0/">
+    <img src="https://img.shields.io/badge/View%20My-Portfolio-pink?style=for-the-badge" alt="Portfolio"/>
+  </a>
+  <a href="https://yourresume.com" >
+    <img src="https://img.shields.io/badge/Download-Resume-blue?style=for-the-badge" alt="Resume"/>
+  </a>
+</p>
+
+---
+
+<!-- Stats + Trophies -->
+<div align="center">
+
+![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=ishan0121&theme=nord&margin-w=15&margin-h=15)
+
+<table>
+  <tr>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api?username=ishan0121&show_icons=true&theme=tokyonight&count_private=true&hide_border=true" />
+    </td>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ishan0121&layout=compact&theme=tokyonight&hide_border=true" />
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <img src="https://streak-stats.demolab.com/?user=ishan0121&theme=tokyonight&hide_border=true" />
+    </td>
+  </tr>
+</table>
+
+</div>
+
+---
+
+<!-- Tech Stack -->
+<div align="center">
+  <h2>🧰 Tech Stack</h2>
+
+  **Languages & Frameworks**  
+  <br>
+  <img src="https://skillicons.dev/icons?i=c,cpp,java,python,go,r,js,ts,html,css,react,nextjs,flutter,tailwind,materialui,threejs,qt,vite&perline=9" />
+
+  **DevOps & Tools**  
+  <br>
+  <img src="https://skillicons.dev/icons?i=docker,vercel,bun,npm,pnpm,git,github,cloudflare" />
+
+  **Databases & AI**  
+  <br>
+  <img src="https://skillicons.dev/icons?i=mongodb,mysql,tensorflow" />
+
+  **Operating Systems & Shells**  
+  <br>
+  <img src="https://skillicons.dev/icons?i=linux,arch,debian,ubuntu,mint,redhat,kali,windows,bash,powershell" />
+
+  **Editors & Productivity**  
+  <br>
+  <img src="https://skillicons.dev/icons?i=vscode,neovim,sublime,eclipse,arduino,obsidian" />
+
+</div>
+
+---
+
+<!-- Projects -->
+<div align="center">
+  <h3>🎯 Recent Projects</h3>
+  <table>
+    <tr>
+      <td>
+        <a href="https://github.com/ishan0121/WaterAI">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=ishan0121&repo=WaterAI&theme=radical" />
+        </a>
+      </td>
+      <td>
+        <a href="https://github.com/ishan0121/Modify-SDDM-theme">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=ishan0121&repo=Modify-SDDM-theme&theme=radical" />
+        </a>
+      </td>
+    </tr>
+  </table>
+</div>
+
+---
+
+<!-- Extras -->
+<div align="center">
+  <h3>📈 Contribution Calendar</h3>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ishan0121&theme=github_dark" />
+
+---
+
+
+<!-- Multiple counters -->
+![Profile Views](https://komarev.com/ghpvc/?username=ishan0121&color=blueviolet)
+![GitHub followers](https://img.shields.io/github/followers/ishan0121?style=social)
+![GitHub User's stars](https://img.shields.io/github/stars/ishan0121?style=social)
+
+---
+
+  <h3>💬 Random Dev Quote</h3>
+  <img src="https://github-readme-quotes-bay.vercel.app/quote?theme=dark" />
+</div>
+
+---
+
+<!-- Socials -->
+<div align="center">
+
+  **Community & Socials**  
+  <!-- [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://yourportfolio.com)  
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yourprofile)
+  [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/ishan0121)
+  [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/ishan0121)
+  [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/yourchannel)
+  [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@ishan0121)
+  [![Dev.to](https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white)](https://dev.to/ishan0121) -->
+  <!-- <br> -->
+  <a target="_blank" href="https://Ishan0121.github.io/portfolio2.0/">
+    <img src="https://skillicons.dev/icons?i=github" />
+  </a>
+  <a target="_blank" href="https://linkedin.com/in/https://www.linkedin.com/in/ishan-maiti-785212297">
+    <img src="https://skillicons.dev/icons?i=linkedin" />
+  </a>
+  <a target="_blank" href="https://Ishan0121.github.io/portfolio2.0/">
+    <img src="https://skillicons.dev/icons?i=stackoverflow" />
+  </a>
+  <a target="_blank" href="https://Ishan0121.github.io/portfolio2.0/">
+    <img src="https://skillicons.dev/icons?i=codepen" />
+  </a>
+  <a target="_blank" href="https://Ishan0121.github.io/portfolio2.0/">
+    <img src="https://skillicons.dev/icons?i=discord" />
+  </a>
+  
+</div>
+
+---
+<!-- Footer -->
+<p align="center">
+ <img width="1000" src="assets/github-snake.svg" alt="snake"/>
+</p>
+
+
+
+<!-- Icon-only social links -->
+<div align="center">
+
+</div>

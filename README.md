@@ -74,7 +74,8 @@
 🐧 Living the **Linux + Open Source** life  
 🛠️ Into **System Design, Backend Dev, and Automation**  
 🎮 Loves mixing tech with **games, anime, and sci-fi worlds**
-
+<a target="_blank" href="https://Ishan0121.github.io/Portfolio/" target="_blank" style="display: inline-block; padding: 10px 20px; background-color: #3498db; color: #ffffff; text-decoration: none; border-radius: 5px; font-weight: bold; font-size: 16px; margin-bottom: 20px;">Visit Portfolio Website ↗</a>
+- <a target="_blank" href="https://Ishan0121.github.io/portfolio2.0/" target="_blank" style="display: inline-block; padding: 10px 20px; background-color: #3498db; color: #ffffff; text-decoration: none; border-radius: 5px; font-weight: bold; font-size: 16px; margin-bottom: 20px;">Visit My New Portfolio Website ↗</a>
 </div>
 
 <!-- Professional CTA -->

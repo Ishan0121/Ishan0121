@@ -96,6 +96,38 @@
 
 ---
 
+
+```python
+class Ishan0121:
+    def __init__(self):
+        self.name = "Ishan"
+        self.username = "Ishan0121"
+        self.origin = "India"
+        self.bio = "A passionate developer building the future one commit at a time."
+        self.exploring = ["AI / LLMs / Agents / Chatbots",
+                          "System design / Backend / Automation",
+                          "Linux & Open Source"]
+        self.interests = ["Tech", "Games", "Anime", "Sci‑fi"]
+        self.open_to = ["New projects", "Collaborations", "Growing skills"]
+
+    def about(self):
+        print(f"🙋 Hi, I’m {self.name} ({self.username})")
+        print(self.bio)
+        print("\n🛠 Exploring:")
+        for item in self.exploring:
+            print("-", item)
+        print("\n🎮 Interests:")
+        print(", ".join(self.interests))
+        print("\n📚 Open to:")
+        print(", ".join(self.open_to))
+
+
+# Example usage
+ishan = Ishan0121()
+ishan.about()
+```
+
+
 <!-- Stats + Trophies -->
 <div align="center">
 

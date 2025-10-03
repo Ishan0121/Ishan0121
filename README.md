@@ -175,7 +175,7 @@ ishan.about()
 
   **Editors & Productivity**  
   <br>
-  <img src="https://skillicons.dev/icons?i=vscode,neovim,sublime,eclipse,arduino,obsidian" />
+  <img src="https://skillicons.dev/icons?i=vscode,androidstudio,neovim,sublime,eclipse,arduino,obsidian" />
 
 </div>
 

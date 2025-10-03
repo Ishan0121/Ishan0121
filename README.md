@@ -159,7 +159,7 @@ ishan.about()
 
   **Languages & Frameworks**  
   <br>
-  <img src="https://skillicons.dev/icons?i=c,cpp,java,kotlin,python,go,r,js,ts,html,css,react,nextjs,flutter,tailwind,materialui,threejs,qt,vite&perline=9" />
+  <img src="https://skillicons.dev/icons?i=c,cpp,java,kotlin,python,go,r,js,ts,html,css,react,nextjs,flutter,tailwind,materialui,threejs,qt,vite&perline=10" />
 
   **DevOps & Tools**  
   <br>

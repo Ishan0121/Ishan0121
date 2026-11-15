@@ -45,7 +45,7 @@
 
 ## ⚡ About Me
 
-CS undergraduate from West Bengal, India, building across web, AI, Linux, and systems.
+CS undergraduate from India, building across web, AI, Linux, and systems.
 
 - **Full-stack & Web:** Crafting modern web experiences — [Portfolio](https://ishan0121.vercel.app/) · [3D Lab](https://ishan0121.vercel.app/3d)
 - **AI & Agents:** Exploring local-first LLM workflows and voice-assistant projects (Aisha).
@@ -117,8 +117,8 @@ CS undergraduate from West Bengal, India, building across web, AI, Linux, and sy
 
 <div align="center">
 
-  <img src="https://github-readme-stats.vercel.app/api?username=ishan0121&show_icons=true&theme=tokyonight&hide_border=true&border_radius=12&include_all_commits=true&count_private=true&rank_icon=github" height="170" alt="Ishan's GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ishan0121&layout=compact&theme=tokyonight&hide_border=true&border_radius=12&langs_count=8" height="170" alt="Top languages" />
+  <img src="https://github-stats-extended.vercel.app/api?username=ishan0121&show_icons=true&theme=tokyonight&hide_border=true&border_radius=12&include_all_commits=true&count_private=true&rank_icon=github" height="170" alt="Ishan's GitHub stats" />
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=ishan0121&layout=compact&theme=tokyonight&hide_border=true&border_radius=12&langs_count=8" height="170" alt="Top languages" />
 
   <br/>
 
@@ -127,6 +127,7 @@ CS undergraduate from West Bengal, India, building across web, AI, Linux, and sy
   <br/><br/>
 
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=ishan0121&theme=tokyo-night&hide_border=true&area=true&radius=12" width="100%" alt="Contribution activity graph" />
+  
 </div>
 
 ---
@@ -155,7 +156,7 @@ CS undergraduate from West Bengal, India, building across web, AI, Linux, and sy
     <source media="(prefers-color-scheme: light)" srcset="assets/github-snake.svg" />
     <img src="assets/github-snake.svg" width="100%" alt="Contribution snake animation" />
   </picture>
-  <p><em>Auto-updated visual of contribution activity.</em></p>
+ 
 </div>
 
 ---

@@ -1,0 +1,36 @@
+name: Profile Summary Cards
+
+on:
+  schedule:
+    - cron: "0 7 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate profile summary cards
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: Ishan0121
+          BRANCH_NAME: main
+      - name: Move generated cards to assets
+        run: |
+          mkdir -p assets/profile-summary
+          if [ -d "profile-summary-card-output" ]; then
+            cp -r profile-summary-card-output/* assets/profile-summary/ 2>/dev/null || true
+          fi
+      - name: Commit and push if changed
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update profile summary cards"
+          file_pattern: assets/profile-summary/**

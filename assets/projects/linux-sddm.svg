@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 145" width="440" height="145">
+  <rect width="440" height="145" rx="10" fill="#16161e" stroke="#292e42" stroke-width="1.5"/>
+  <rect x="0" y="0" width="440" height="3" rx="1.5" fill="#e0af68"/>
+  
+  <!-- Repo Icon & Title -->
+  <g transform="translate(20, 22)">
+    <svg width="16" height="16" viewBox="0 0 16 16" fill="#e0af68">
+      <path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8z"/>
+    </svg>
+    <text x="24" y="13" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15.5" font-weight="700" fill="#e0af68">Ishan0121/Modify-SDDM-theme</text>
+    <rect x="315" y="-1" width="85" height="19" rx="9.5" fill="#1f2335" stroke="#3b4261" stroke-width="1"/>
+    <text x="357.5" y="12" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="10" fill="#a9b1d6">Public Repo</text>
+  </g>
+
+  <!-- Description -->
+  <text x="20" y="64" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#c0caf5">Modern customizable QML login &amp; display manager themes for SDDM</text>
+  <text x="20" y="84" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#9aa5ce">paired with GDM-LOGIN-WALLPAPER &amp; phantom-dlp Linux tools.</text>
+
+  <!-- Footer Metadata -->
+  <g transform="translate(20, 118)">
+    <circle cx="6" cy="-4" r="5.5" fill="#44a51c"/>
+    <text x="18" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" fill="#a9b1d6">QML / Shell</text>
+    
+    <text x="155" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" fill="#e0af68">★ 5 Stars</text>
+    <text x="400" y="0" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="11" fill="#7dcfff">View Repo ↗</text>
+  </g>
+</svg>

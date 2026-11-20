@@ -1,27 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 145" width="440" height="145">
-  <rect width="440" height="145" rx="10" fill="#16161e" stroke="#292e42" stroke-width="1.5"/>
-  <rect x="0" y="0" width="440" height="3" rx="1.5" fill="#e0af68"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 145" width="440" height="145" role="img" aria-label="Modify-SDDM-theme">
+  <defs>
+    <linearGradient id="cardGrad_linux-sddm" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0F1F38" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#0B162C" stop-opacity="0.95"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif; }
+  </style>
+
+  <!-- Card Background with hairline border -->
+  <rect width="440" height="145" rx="8" fill="url(#cardGrad_linux-sddm)" stroke="#1D3459" stroke-width="0.75"/>
   
-  <!-- Repo Icon & Title -->
-  <g transform="translate(20, 22)">
-    <svg width="16" height="16" viewBox="0 0 16 16" fill="#e0af68">
+  <!-- Subtle top accent hairline -->
+  <line x1="16" y1="0.5" x2="120" y2="0.5" stroke="#E4BFD3" stroke-width="0.75" stroke-opacity="0.7"/>
+
+  <!-- Header: Icon, Title & Badge -->
+  <g transform="translate(20, 24)">
+    <!-- Minimal Repo / Node Icon -->
+    <svg width="15" height="15" viewBox="0 0 16 16" fill="#E4BFD3" opacity="0.9">
       <path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8z"/>
     </svg>
-    <text x="24" y="13" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15.5" font-weight="700" fill="#e0af68">Ishan0121/Modify-SDDM-theme</text>
-    <rect x="315" y="-1" width="85" height="19" rx="9.5" fill="#1f2335" stroke="#3b4261" stroke-width="1"/>
-    <text x="357.5" y="12" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="10" fill="#a9b1d6">Public Repo</text>
+    <text x="24" y="12" class="sans" font-size="14.5" font-weight="700" fill="#EDF2F8" letter-spacing="-0.2">Modify-SDDM-theme</text>
+    
+    <!-- Hairline Pill Badge -->
+    <rect x="315" y="-3" width="85" height="20" rx="10" fill="#0B162C" stroke="#C4D2E3" stroke-width="0.5" stroke-opacity="0.35"/>
+    <text x="357.5" y="10" text-anchor="middle" class="mono" font-size="9.5" fill="#E4BFD3">Public Repo</text>
   </g>
 
   <!-- Description -->
-  <text x="20" y="64" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#c0caf5">Modern customizable QML login &amp; display manager themes for SDDM</text>
-  <text x="20" y="84" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#9aa5ce">paired with GDM-LOGIN-WALLPAPER &amp; phantom-dlp Linux tools.</text>
+  <text x="20" y="64" class="sans" font-size="12" fill="#EDF2F8" fill-opacity="0.88">Modern customizable QML login &amp; display manager themes for SDDM</text>
+  <text x="20" y="82" class="sans" font-size="12" fill="#C4D2E3" fill-opacity="0.72">paired with GDM-LOGIN-WALLPAPER &amp; phantom-dlp Linux utilities.</text>
 
-  <!-- Footer Metadata -->
-  <g transform="translate(20, 118)">
-    <circle cx="6" cy="-4" r="5.5" fill="#44a51c"/>
-    <text x="18" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" fill="#a9b1d6">QML / Shell</text>
+  <!-- Footer Metadata & Hairline Divider -->
+  <line x1="20" y1="102" x2="420" y2="102" stroke="#1D3459" stroke-width="0.5" stroke-opacity="0.6"/>
+  <g transform="translate(20, 124)">
+    <circle cx="5" cy="-4" r="3" fill="#F2D8A7" opacity="0.85"/>
+    <text x="14" y="0" class="mono" font-size="10.5" fill="#C4D2E3" fill-opacity="0.8">QML / Bash / Linux</text>
     
-    <text x="155" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" fill="#e0af68">★ 5 Stars</text>
-    <text x="400" y="0" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="11" fill="#7dcfff">View Repo ↗</text>
+    <text x="210" y="0" class="mono" font-size="10.5" fill="#E4BFD3" fill-opacity="0.85">★ 5 Stars</text>
+    <text x="400" y="0" text-anchor="end" class="mono" font-size="10.5" font-weight="600" fill="#EDF2F8">View Repo ↗</text>
   </g>
 </svg>

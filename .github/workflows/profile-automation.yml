@@ -2,7 +2,7 @@ name: Automated Profile Visuals
 
 on:
   schedule:
-    - cron: "0 */12 * * *"
+    - cron: "0 0 * * *" # Run daily at midnight UTC
   workflow_dispatch:
   push:
     branches:
@@ -18,17 +18,18 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Generate GitHub Contribution Snake
+      - name: Generate GitHub Contribution Snake (Spring Night Palette)
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            assets/github-snake.svg?palette=github-dark
+            assets/github-snake.svg
+            assets/github-snake-dark.svg?palette=github-dark&color_snake=%23E4BFD3&color_dots=%230B162C,%231D3459,%232D4D7B,%238B6C86,%23E4BFD3
 
       - name: Commit Updated Assets
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/github-snake.svg
+          git add assets/github-snake.svg assets/github-snake-dark.svg
           git diff --staged --quiet || git commit -m "chore(profile): refresh contribution snake"
           git push

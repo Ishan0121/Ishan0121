@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 24" width="100%" height="24" role="separator">
+  <defs>
+    <linearGradient id="divL" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C4D2E3" stop-opacity="0.0"/>
+      <stop offset="60%" stop-color="#C4D2E3" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#C4D2E3" stop-opacity="0.35"/>
+    </linearGradient>
+    <linearGradient id="divR" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C4D2E3" stop-opacity="0.35"/>
+      <stop offset="40%" stop-color="#C4D2E3" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#C4D2E3" stop-opacity="0.0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Left Hairline -->
+  <line x1="60" y1="12" x2="470" y2="12" stroke="url(#divL)" stroke-width="0.5"/>
+
+  <!-- Center Geometric Moonlight Node -->
+  <g transform="translate(500, 12) scale(2)">
+    <circle cx="-16" cy="0" r="1.2" fill="#C4D2E3" opacity="0.5"/>
+    <polygon points="0,-5 5,0 0,5 -5,0" fill="#E4BFD3" opacity="0.8"/>
+    <circle cx="0" cy="0" r="1.5" fill="#F2D8A7" opacity="0.95"/>
+    <circle cx="16" cy="0" r="1.2" fill="#C4D2E3" opacity="0.5"/>
+  </g>
+
+  <!-- Right Hairline -->
+  <line x1="530" y1="12" x2="940" y2="12" stroke="url(#divR)" stroke-width="0.5"/>
+</svg>

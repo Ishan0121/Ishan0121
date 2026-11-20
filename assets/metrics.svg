@@ -1,129 +1,134 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 420" width="100%" height="420">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 420" width="100%" height="420" role="img" aria-label="GitHub Telemetry &amp; Contribution Matrix">
   <defs>
     <linearGradient id="mBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#16161e"/>
-      <stop offset="100%" stop-color="#1a1b27"/>
+      <stop offset="0%" stop-color="#081020"/>
+      <stop offset="50%" stop-color="#0B162C"/>
+      <stop offset="100%" stop-color="#0F1F38"/>
     </linearGradient>
-    <linearGradient id="barBlue" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#7aa2f7"/>
-      <stop offset="100%" stop-color="#2ac3de"/>
+    <linearGradient id="cardGrad_m" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0F1F38" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#0B162C" stop-opacity="0.95"/>
     </linearGradient>
   </defs>
 
-  <rect width="920" height="420" rx="14" fill="url(#mBg)" stroke="#292e42" stroke-width="1.5"/>
+  <!-- Canvas Frame with Hairline Border -->
+  <rect width="920" height="420" rx="12" fill="url(#mBg)" stroke="#1D3459" stroke-width="0.75"/>
 
   <!-- Header -->
-  <text x="30" y="38" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="700" fill="#7aa2f7">📊 GitHub Telemetry &amp; Contribution Matrix — @Ishan0121</text>
-  <text x="685" y="38" font-family="'JetBrains Mono', monospace" font-size="11.5" fill="#565f89">Updated: Nov 2026 • Asia/Kolkata</text>
-  <line x1="30" y1="52" x2="890" y2="52" stroke="#292e42" stroke-width="1"/>
+  <text x="30" y="38" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="17" font-weight="700" fill="#EDF2F8">📊 GitHub Telemetry &amp; Engineering Matrix — @Ishan0121</text>
+  <text x="890" y="38" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="11" fill="#C4D2E3" fill-opacity="0.7">Updated: Nov 2026 • Live Telemetry</text>
+  <line x1="30" y1="52" x2="890" y2="52" stroke="#1D3459" stroke-width="0.75"/>
 
   <!-- Column 1: Core Activity & Impact -->
   <g transform="translate(30, 72)">
-    <rect x="0" y="0" width="270" height="155" rx="10" fill="#1f2335" stroke="#292e42" stroke-width="1"/>
-    <text x="18" y="28" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="700" fill="#bb9af7">⚡ Commit &amp; PR Activity</text>
+    <rect x="0" y="0" width="270" height="155" rx="8" fill="url(#cardGrad_m)" stroke="#1D3459" stroke-width="0.75"/>
+    <line x1="0" y1="0" x2="30" y2="0" stroke="#E4BFD3" stroke-width="1.5"/>
+    <text x="18" y="28" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13.5" font-weight="700" fill="#E4BFD3">⚡ Commit &amp; PR Activity</text>
     
-    <text x="18" y="56" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" fill="#a9b1d6">Total Contributions</text>
-    <text x="252" y="56" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="13.5" font-weight="700" fill="#7dcfff">2,480+</text>
+    <text x="18" y="56" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.5" fill="#C4D2E3">Total Contributions</text>
+    <text x="252" y="56" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="700" fill="#EDF2F8">2,480+</text>
 
-    <text x="18" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" fill="#a9b1d6">Total Commits (Last Year)</text>
-    <text x="252" y="80" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="13.5" font-weight="700" fill="#9ece6a">571</text>
+    <text x="18" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.5" fill="#C4D2E3">Total Commits (Last Year)</text>
+    <text x="252" y="80" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="700" fill="#A6E3A1">571</text>
 
-    <text x="18" y="104" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" fill="#a9b1d6">Pull Requests Merged/Opened</text>
-    <text x="252" y="104" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="13.5" font-weight="700" fill="#e0af68">41</text>
+    <text x="18" y="104" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.5" fill="#C4D2E3">Pull Requests Merged/Opened</text>
+    <text x="252" y="104" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="700" fill="#F2D8A7">41</text>
 
-    <text x="18" y="128" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" fill="#a9b1d6">Repositories Contributed To</text>
-    <text x="252" y="128" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="13.5" font-weight="700" fill="#7aa2f7">33</text>
+    <text x="18" y="128" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.5" fill="#C4D2E3">Repositories Contributed To</text>
+    <text x="252" y="128" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="700" fill="#89B4FA">33</text>
   </g>
 
   <!-- Column 2: Community & Repository Reach -->
   <g transform="translate(320, 72)">
-    <rect x="0" y="0" width="270" height="155" rx="10" fill="#1f2335" stroke="#292e42" stroke-width="1"/>
-    <text x="18" y="28" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="700" fill="#2ac3de">🌐 Repository &amp; Community</text>
+    <rect x="0" y="0" width="270" height="155" rx="8" fill="url(#cardGrad_m)" stroke="#1D3459" stroke-width="0.75"/>
+    <line x1="0" y1="0" x2="30" y2="0" stroke="#C4D2E3" stroke-width="1.5"/>
+    <text x="18" y="28" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13.5" font-weight="700" fill="#C4D2E3">🌐 Repository &amp; Community</text>
 
-    <text x="18" y="56" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" fill="#a9b1d6">Total Repositories (Public)</text>
-    <text x="252" y="56" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="13.5" font-weight="700" fill="#7dcfff">55 (27 Public)</text>
+    <text x="18" y="56" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.5" fill="#C4D2E3">Total Repositories (Public)</text>
+    <text x="252" y="56" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="700" fill="#EDF2F8">55 (27 Public)</text>
 
-    <text x="18" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" fill="#a9b1d6">Total Stars Earned</text>
-    <text x="252" y="80" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="13.5" font-weight="700" fill="#e0af68">48 ★</text>
+    <text x="18" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.5" fill="#C4D2E3">Total Stars Earned</text>
+    <text x="252" y="80" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="700" fill="#F2D8A7">48 ★</text>
 
-    <text x="18" y="104" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" fill="#a9b1d6">Repositories Starred</text>
-    <text x="252" y="104" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="13.5" font-weight="700" fill="#bb9af7">125</text>
+    <text x="18" y="104" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.5" fill="#C4D2E3">Repositories Starred</text>
+    <text x="252" y="104" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="700" fill="#E4BFD3">125</text>
 
-    <text x="18" y="128" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" fill="#a9b1d6">Account Tenure</text>
-    <text x="252" y="128" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="13.5" font-weight="700" fill="#9ece6a">3+ Years</text>
+    <text x="18" y="128" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.5" fill="#C4D2E3">Account Tenure</text>
+    <text x="252" y="128" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="700" fill="#A6E3A1">3+ Years</text>
   </g>
 
-  <!-- Column 3: Streak & Coding Rhythm -->
+  <!-- Column 3: Streak & Coding Habits -->
   <g transform="translate(610, 72)">
-    <rect x="0" y="0" width="280" height="155" rx="10" fill="#1f2335" stroke="#292e42" stroke-width="1"/>
-    <text x="18" y="28" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="700" fill="#9ece6a">🔥 Streak &amp; Coding Habits</text>
+    <rect x="0" y="0" width="280" height="155" rx="8" fill="url(#cardGrad_m)" stroke="#1D3459" stroke-width="0.75"/>
+    <line x1="0" y1="0" x2="30" y2="0" stroke="#F2D8A7" stroke-width="1.5"/>
+    <text x="18" y="28" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13.5" font-weight="700" fill="#F2D8A7">🔥 Streak &amp; Coding Habits</text>
 
-    <text x="18" y="56" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" fill="#a9b1d6">Best Commit Streak</text>
-    <text x="262" y="56" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="13.5" font-weight="700" fill="#9ece6a">12 Days</text>
+    <text x="18" y="56" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.5" fill="#C4D2E3">Best Commit Streak</text>
+    <text x="262" y="56" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="700" fill="#A6E3A1">12 Days</text>
 
-    <text x="18" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" fill="#a9b1d6">Peak Daily Commits</text>
-    <text x="262" y="80" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="13.5" font-weight="700" fill="#7dcfff">21 / day</text>
+    <text x="18" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.5" fill="#C4D2E3">Peak Daily Commits</text>
+    <text x="262" y="80" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="700" fill="#EDF2F8">21 / day</text>
 
-    <text x="18" y="104" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" fill="#a9b1d6">Peak Productivity Window</text>
-    <text x="262" y="104" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="13.5" font-weight="700" fill="#e0af68">09:30–20:00 IST</text>
+    <text x="18" y="104" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.5" fill="#C4D2E3">Peak Productivity Window</text>
+    <text x="262" y="104" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="700" fill="#F2D8A7">09:30–20:00 IST</text>
 
-    <text x="18" y="128" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" fill="#a9b1d6">Primary Dev OS</text>
-    <text x="262" y="128" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="13.5" font-weight="700" fill="#bb9af7">Arch / Garuda Linux</text>
+    <text x="18" y="128" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.5" fill="#C4D2E3">Primary Dev OS</text>
+    <text x="262" y="128" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="700" fill="#89B4FA">Arch / Garuda Linux</text>
   </g>
 
   <!-- Bottom Row Left: Language Distribution Matrix -->
   <g transform="translate(30, 244)">
-    <rect x="0" y="0" width="560" height="150" rx="10" fill="#1f2335" stroke="#292e42" stroke-width="1"/>
-    <text x="18" y="28" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="700" fill="#7aa2f7">💻 Top Languages Distribution (By Commits &amp; Repositories)</text>
+    <rect x="0" y="0" width="560" height="150" rx="8" fill="url(#cardGrad_m)" stroke="#1D3459" stroke-width="0.75"/>
+    <text x="18" y="28" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13.5" font-weight="700" fill="#EDF2F8">💻 Top Languages Distribution (By Commits &amp; Repositories)</text>
 
     <!-- Multi-segment Language Bar -->
     <g transform="translate(18, 42)">
-      <rect x="0" y="0" width="168" height="12" rx="4" fill="#3178c6"/>
-      <rect x="170" y="0" width="128" height="12" rx="0" fill="#f1e05a"/>
-      <rect x="300" y="0" width="84" height="12" rx="0" fill="#e34c26"/>
-      <rect x="386" y="0" width="56" height="12" rx="0" fill="#89e051"/>
-      <rect x="444" y="0" width="44" height="12" rx="0" fill="#44a51c"/>
-      <rect x="490" y="0" width="34" height="12" rx="4" fill="#555555"/>
+      <rect x="0" y="0" width="168" height="10" rx="3" fill="#3178c6"/>
+      <rect x="170" y="0" width="128" height="10" rx="0" fill="#f1e05a"/>
+      <rect x="300" y="0" width="84" height="10" rx="0" fill="#e34c26"/>
+      <rect x="386" y="0" width="56" height="10" rx="0" fill="#89e051"/>
+      <rect x="444" y="0" width="44" height="10" rx="0" fill="#44a51c"/>
+      <rect x="490" y="0" width="34" height="10" rx="3" fill="#E4BFD3"/>
     </g>
 
     <!-- Legend Row 1 -->
-    <g transform="translate(18, 76)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.5" fill="#c0caf5">
-      <circle cx="6" cy="-4" r="5" fill="#3178c6"/>
+    <g transform="translate(18, 76)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" fill="#C4D2E3">
+      <circle cx="6" cy="-4" r="4.5" fill="#3178c6"/>
       <text x="18" y="0">TypeScript (32%)</text>
 
-      <circle cx="186" cy="-4" r="5" fill="#f1e05a"/>
+      <circle cx="186" cy="-4" r="4.5" fill="#f1e05a"/>
       <text x="198" y="0">JavaScript (24%)</text>
 
-      <circle cx="366" cy="-4" r="5" fill="#e34c26"/>
+      <circle cx="366" cy="-4" r="4.5" fill="#e34c26"/>
       <text x="378" y="0">HTML5 / CSS3 (16%)</text>
     </g>
 
     <!-- Legend Row 2 -->
-    <g transform="translate(18, 104)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.5" fill="#c0caf5">
-      <circle cx="6" cy="-4" r="5" fill="#89e051"/>
+    <g transform="translate(18, 102)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" fill="#C4D2E3">
+      <circle cx="6" cy="-4" r="4.5" fill="#89e051"/>
       <text x="18" y="0">Shell / Luau (11%)</text>
 
-      <circle cx="186" cy="-4" r="5" fill="#44a51c"/>
+      <circle cx="186" cy="-4" r="4.5" fill="#44a51c"/>
       <text x="198" y="0">QML / QtQuick (9%)</text>
 
-      <circle cx="366" cy="-4" r="5" fill="#555555"/>
+      <circle cx="366" cy="-4" r="4.5" fill="#E4BFD3"/>
       <text x="378" y="0">C / C++ / Python (8%)</text>
     </g>
 
-    <text x="18" y="132" font-family="'JetBrains Mono', monospace" font-size="11" fill="#565f89">Active Stack: Next.js • React • TypeScript • Python • C/C++ • Luau • QML • Bash • Docker</text>
+    <text x="18" y="130" font-family="'JetBrains Mono', monospace" font-size="10.5" fill="#C4D2E3" fill-opacity="0.6">Stack: llama.cpp • MCP • Next.js • React • TypeScript • Python • C++ • QML • Bash • Docker</text>
   </g>
 
-  <!-- Bottom Row Right: Notable Open Source & Ecosystem Contributions -->
+  <!-- Bottom Row Right: Upstream Ecosystem Contributions -->
   <g transform="translate(610, 244)">
-    <rect x="0" y="0" width="280" height="150" rx="10" fill="#1f2335" stroke="#292e42" stroke-width="1"/>
-    <text x="18" y="28" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="700" fill="#e0af68">🏆 Upstream Open Source</text>
+    <rect x="0" y="0" width="280" height="150" rx="8" fill="url(#cardGrad_m)" stroke="#1D3459" stroke-width="0.75"/>
+    <text x="18" y="28" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13.5" font-weight="700" fill="#F2D8A7">🏆 Upstream Open Source</text>
 
-    <rect x="18" y="42" width="244" height="44" rx="6" fill="#16161e" stroke="#292e42" stroke-width="1"/>
-    <text x="28" y="60" font-family="'JetBrains Mono', monospace" font-size="11.5" font-weight="700" fill="#7dcfff">noctalia-dev/community-plugins</text>
-    <text x="28" y="76" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" fill="#9aa5ce">Merged: Wallpaper Deck plugin &amp; updates</text>
+    <rect x="18" y="42" width="244" height="44" rx="6" fill="#0B162C" stroke="#1D3459" stroke-width="0.75"/>
+    <text x="28" y="60" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#E4BFD3">noctalia-dev/community-plugins</text>
+    <text x="28" y="75" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10.5" fill="#C4D2E3" fill-opacity="0.8">Merged: Wallpaper Deck plugin &amp; updates</text>
 
-    <rect x="18" y="94" width="244" height="44" rx="6" fill="#16161e" stroke="#292e42" stroke-width="1"/>
-    <text x="28" y="112" font-family="'JetBrains Mono', monospace" font-size="11.5" font-weight="700" fill="#bb9af7">Docker &amp; Podman Shipyard</text>
-    <text x="28" y="128" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" fill="#9aa5ce">Noctalia v5 daemon &amp; Compose manager</text>
+    <rect x="18" y="94" width="244" height="44" rx="6" fill="#0B162C" stroke="#1D3459" stroke-width="0.75"/>
+    <text x="28" y="112" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#89B4FA">Docker &amp; Podman Shipyard</text>
+    <text x="28" y="127" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10.5" fill="#C4D2E3" fill-opacity="0.8">Noctalia v5 daemon &amp; Compose manager</text>
   </g>
 </svg>

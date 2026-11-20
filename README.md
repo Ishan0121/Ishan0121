@@ -1,13 +1,17 @@
 <div align="center">
 
-<!-- Full-Bleed Animated Hero Banner (Spring Night Hybrid Canvas) -->
+<!-- ========================================== -->
+<!-- HERO BANNER [COMP-01 // Primary Active: Variant A] -->
+<!-- ========================================== -->
 <a href="https://ishan0121.vercel.app/">
-  <img src="assets/ishan-hero.svg" width="100%" alt="Ishan Maiti (@Ishan0121) — Computer Science Student &amp; Creative Systems Developer" />
+  <img src="assets/ishan-hero.svg" width="100%" alt="Ishan Maiti (@Ishan0121) — Computer Science Scholar &amp; Systems Developer" />
 </a>
 
 <br/>
 
-<!-- Editorial Minimal Navigation Strip -->
+<!-- ========================================== -->
+<!-- QUICK NAVIGATION STRIP [COMP-02 / NAV-01] -->
+<!-- ========================================== -->
 <p align="center">
   <a href="https://ishan0121.vercel.app/">
     <img src="https://img.shields.io/badge/LIVE_PORTFOLIO-ishan0121.vercel.app-1D3459?style=flat-square&logo=vercel&logoColor=EDF2F8&labelColor=0B162C" alt="Live Portfolio Website" />
@@ -29,7 +33,9 @@
   </a>
 </p>
 
-<!-- Minimal Telemetry Indicators -->
+<!-- ========================================== -->
+<!-- MINIMAL LIVE TELEMETRY PILLS [COMP-03 / IND-01] -->
+<!-- ========================================== -->
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=ishan0121&label=Profile%20Views&color=1D3459&labelColor=0B162C&style=flat-square" alt="Profile Views" />
   <a href="https://github.com/Ishan0121?tab=followers">
@@ -38,152 +44,111 @@
   <a href="https://github.com/Ishan0121?tab=repositories">
     <img src="https://img.shields.io/github/stars/Ishan0121?label=Total%20Stars&style=flat-square&color=1D3459&labelColor=0B162C" alt="Total Stars" />
   </a>
+  <img src="https://img.shields.io/badge/STATUS-Active_Building-1D3459?style=flat-square&logo=archlinux&logoColor=EDF2F8&labelColor=0B162C" alt="Arch Linux Status" />
 </p>
 
 </div>
 
 <img src="assets/divider.svg" width="100%" alt="Section Divider" />
 
-### `01` // PROFILE & ENGINEERING ORIENTATION
-
-CS undergraduate from India, building across web, AI, Linux, and embedded systems. Currently pursuing **B.Sc. in Computer Science** at Vidyasagar University (*Debra Thana Sahid Kshudiram Smriti Mahavidyalaya*, 2023–2027).
-
-- **Full-Stack & 3D Web:** Crafting modern reactive interfaces and interactive WebGL experiences — [Portfolio](https://ishan0121.vercel.app/) · [3D Lab](https://ishan0121.vercel.app/3d)
-- **Local-First AI & Agents:** Exploring privacy-centric LLM workflows and modular voice assistants ([Aisha](https://ishan0121.vercel.app/about)).
-- **Linux & Systems:** Arch/Wayland desktop customization, upstream [Noctalia plugins](https://github.com/noctalia-dev/community-plugins/pulls), and embedded hardware.
-
-<img src="assets/divider.svg" width="100%" alt="Section Divider" />
-
-### `02` // SELECTED REPOSITORIES & ARCHITECTURES
-
-<div align="center">
-<table border="0" cellspacing="12" cellpadding="0">
-  <tr>
-    <td align="center" width="50%">
-      <a href="https://ishan0121.vercel.app/">
-        <img src="assets/projects/portfolio-3d.svg" width="100%" alt="Developer Portfolio &amp; 3D Lab" />
-      </a>
-    </td>
-    <td align="center" width="50%">
-      <a href="https://github.com/noctalia-dev/community-plugins/pulls">
-        <img src="assets/projects/noctalia-plugins.svg" width="100%" alt="Wallpaper Deck &amp; Shipyard — Noctalia Plugins" />
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="50%">
-      <a href="https://ishan0121.vercel.app/about">
-        <img src="assets/projects/aisha-ai.svg" width="100%" alt="Aisha — Local-First Voice AI" />
-      </a>
-    </td>
-    <td align="center" width="50%">
-      <a href="https://github.com/Ishan0121/Modify-SDDM-theme">
-        <img src="assets/projects/linux-sddm.svg" width="100%" alt="Modify-SDDM-theme &amp; Linux Utilities" />
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="50%">
-      <a href="https://github.com/Ishan0121/Radar_sim">
-        <img src="assets/projects/radar-sim.svg" width="100%" alt="Radar Simulation Engine" />
-      </a>
-    </td>
-    <td align="center" width="50%">
-      <a href="https://github.com/Ishan0121/WaterAI">
-        <img src="assets/projects/water-ai.svg" width="100%" alt="WaterAI Analytics" />
-      </a>
-    </td>
-  </tr>
-</table>
+### `01` // PROFILE & CS ORIENTATION
 
 <p align="center">
-  <a href="https://github.com/Ishan0121?tab=repositories">
-    <img src="https://img.shields.io/badge/EXPLORE_ALL_REPOSITORIES-0B162C?style=flat-square&logo=github&logoColor=EDF2F8" alt="Explore All Repositories" />
-  </a>
-  &nbsp;
-  <a href="https://ishan0121.vercel.app/">
-    <img src="https://img.shields.io/badge/VISIT_LIVE_PORTFOLIO-1D3459?style=flat-square&logo=vercel&logoColor=EDF2F8" alt="Visit Live Portfolio" />
-  </a>
+  B.Sc. Computer Science undergraduate at <strong>Vidyasagar University</strong> (2023–2027).<br/>
+  Engineering local AI inference runtimes, Linux desktop systems, reactive web architectures, and embedded computing.
 </p>
+
+<p align="center">
+  <code>llama.cpp</code> &nbsp;•&nbsp; <code>Model Context Protocol (MCP)</code> &nbsp;•&nbsp; <code>Arch Linux / Wayland</code> &nbsp;•&nbsp; <code>Three.js / React</code> &nbsp;•&nbsp; <code>ESP32-S3</code>
+</p>
+
+<br/>
+
+<!-- Workstation & Environment Specs [SPEC-01] -->
+<div align="center">
+  <img src="assets/system-specs.svg" width="100%" alt="Workstation &amp; Engineering Specs" />
 </div>
+
+<br/>
 
 <img src="assets/divider.svg" width="100%" alt="Section Divider" />
 
-### `03` // TECHNICAL STACK & TOOLING MATRIX
+### `02` // TECHNICAL STACK & TOOLING MATRIX
 
+<!-- Tech Stack Design Variant A: Interactive SkillIcons Categorized Grid [COMP-07-VAR-A / STACK-01] -->
 <div align="center">
 
 | Category | Technologies &amp; Tools |
 | :--- | :--- |
-| **Systems, Embedded &amp; Core** | <img src="https://skillicons.dev/icons?i=c,cpp,rust,go,python,java,arduino&theme=dark" height="36" alt="Systems &amp; Core Languages" /> |
-| **Web, Frontend &amp; 3D Lab** | <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,vercel,tailwind,threejs,vite,html,css,nodejs,php&theme=dark" height="36" alt="Web &amp; 3D Stack" /> |
+| **Local AI, Agents &amp; ML** | <img src="https://skillicons.dev/icons?i=python,cpp,c,docker,fastapi,pytorch&theme=dark" height="36" alt="AI, Agents &amp; ML" /> |
+| **Web, Frontend &amp; 3D Lab** | <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,vercel,tailwind,threejs,vite,html,css,nodejs&theme=dark" height="36" alt="Web &amp; 3D Stack" /> |
+| **Systems, Embedded &amp; Core** | <img src="https://skillicons.dev/icons?i=c,cpp,rust,go,java,arduino&theme=dark" height="36" alt="Systems &amp; Core Languages" /> |
 | **Linux, Shells &amp; Compositors** | <img src="https://skillicons.dev/icons?i=linux,arch,ubuntu,redhat,mint,debian,kali,bash,powershell,qt&theme=dark" height="36" alt="Linux &amp; Shells" /> |
-| **Databases, Infra &amp; DevOps** | <img src="https://skillicons.dev/icons?i=docker,postgres,mysql,mongodb,cloudflare,git,github,githubactions,vercel,bun,npm&theme=dark" height="36" alt="Infra &amp; DevOps" /> |
-| **Editors, 3D &amp; Workflow** | <img src="https://skillicons.dev/icons?i=neovim,vscode,androidstudio,blender,obsidian,md&theme=dark" height="36" alt="Editors &amp; Workflow" /> |
+| **Databases, Infra &amp; DevOps** | <img src="https://skillicons.dev/icons?i=docker,postgres,mysql,mongodb,cloudflare,git,github,githubactions,bun,npm&theme=dark" height="36" alt="Infra &amp; DevOps" /> |
+| **Editors, 3D &amp; Productivity** | <img src="https://skillicons.dev/icons?i=neovim,vscode,androidstudio,blender,obsidian,md&theme=dark" height="36" alt="Editors &amp; Workflow" /> |
 
 </div>
 
+<br/>
+
+
+<p align="center">
+  <img src="https://img.shields.io/badge/llama.cpp-0B162C?style=flat-square&logo=cplusplus&logoColor=EDF2F8&labelColor=1D3459" alt="llama.cpp" />
+  <img src="https://img.shields.io/badge/MCP_Protocol-0B162C?style=flat-square&logo=anthropic&logoColor=EDF2F8&labelColor=1D3459" alt="MCP" />
+  <img src="https://img.shields.io/badge/AI_Agents-0B162C?style=flat-square&logo=openai&logoColor=EDF2F8&labelColor=1D3459" alt="AI Agents" />
+  <img src="https://img.shields.io/badge/Python_3-0B162C?style=flat-square&logo=python&logoColor=EDF2F8&labelColor=1D3459" alt="Python" />
+  <img src="https://img.shields.io/badge/Next.js_14-0B162C?style=flat-square&logo=next.js&logoColor=EDF2F8&labelColor=1D3459" alt="Next.js" />
+  <img src="https://img.shields.io/badge/React_18-0B162C?style=flat-square&logo=react&logoColor=EDF2F8&labelColor=1D3459" alt="React" />
+  <img src="https://img.shields.io/badge/TypeScript-0B162C?style=flat-square&logo=typescript&logoColor=EDF2F8&labelColor=1D3459" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Three.js-0B162C?style=flat-square&logo=three.js&logoColor=EDF2F8&labelColor=1D3459" alt="Three.js" />
+  <img src="https://img.shields.io/badge/PostgreSQL-0B162C?style=flat-square&logo=postgresql&logoColor=EDF2F8&labelColor=1D3459" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/Docker-0B162C?style=flat-square&logo=docker&logoColor=EDF2F8&labelColor=1D3459" alt="Docker" />
+  <img src="https://img.shields.io/badge/Arch_Linux-0B162C?style=flat-square&logo=archlinux&logoColor=EDF2F8&labelColor=1D3459" alt="Arch Linux" />
+  <img src="https://img.shields.io/badge/Wayland-0B162C?style=flat-square&logo=linux&logoColor=EDF2F8&labelColor=1D3459" alt="Wayland" />
+  <img src="https://img.shields.io/badge/ESP32--S3-0B162C?style=flat-square&logo=espressif&logoColor=EDF2F8&labelColor=1D3459" alt="ESP32" />
+</p>
+
+<br/>
+
 <img src="assets/divider.svg" width="100%" alt="Section Divider" />
 
-### `04` // LIVE GITHUB TELEMETRY
+### `03` // LIVE GITHUB TELEMETRY & STATS
 
 <div align="center">
+
+<!-- GitHub Stats & Streak Pair [COMP-08 / TEL-01 & TEL-02] -->
 <table border="0" cellspacing="8" cellpadding="0">
   <tr>
     <td align="center" valign="middle">
       <img src="https://github-readme-stats.vercel.app/api?username=Ishan0121&show_icons=true&bg_color=00000000&title_color=EDF2F8&text_color=C4D2E3&icon_color=E4BFD3&border_color=1D3459&include_all_commits=true&count_private=true&rank_icon=github" height="175" alt="Ishan's GitHub Stats" />
     </td>
     <td align="center" valign="middle">
-      <img src="https://streak-stats.demolab.com?user=Ishan0121&background=00000000&border=1D3459&stroke=1D3459&ring=E4BFD3&fire=E4BFD3&currStreakLabel=E4BFD3&currStreakNum=EDF2F8&sideLabels=C4D2E3&sideNums=EDF2F8&dates=C4D2E3" height="175" alt="GitHub Streak Stats" />
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ishan0121&layout=compact&bg_color=00000000&title_color=EDF2F8&text_color=C4D2E3&border_color=1D3459&langs_count=8" height="175" alt="Top Languages Matrix" />
     </td>
   </tr>
 </table>
 
 <br/>
+<img src="https://streak-stats.demolab.com?user=Ishan0121&background=00000000&border=1D3459&stroke=1D3459&ring=E4BFD3&fire=E4BFD3&currStreakLabel=E4BFD3&currStreakNum=EDF2F8&sideLabels=C4D2E3&sideNums=EDF2F8&dates=C4D2E3" height="175" alt="GitHub Streak Stats" />
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ishan0121&layout=compact&bg_color=00000000&title_color=EDF2F8&text_color=C4D2E3&border_color=1D3459&langs_count=8" height="165" alt="Top Languages Matrix" />
 
-</div>
+<br/>
 
-<img src="assets/divider.svg" width="100%" alt="Section Divider" />
 
-### `05` // VERIFIED TROPHIES & CERTIFICATIONS
-
-<div align="center">
-
-<!-- GitHub Trophies (Restrained Flat Zen Theme) -->
-<img src="https://profile-trophy.vercel.app/?username=Ishan0121&theme=flat&no-frame=true&no-bg=true&column=6&margin-w=8" width="100%" alt="GitHub Profile Trophies" />
-
-<br/><br/>
-
-<table border="0" cellspacing="8" cellpadding="8">
-  <tr>
-    <td align="left">
-      <strong>IBM SkillsBuild:</strong> <em>From Learner to Builder: Become an AI Agent Architect</em>
-    </td>
-    <td align="left">
-      <strong>IBM SkillsBuild:</strong> <em>Getting Started with Artificial Intelligence</em>
-    </td>
-    <td align="left">
-      <strong>NASSCOM:</strong> <em>Digital 101 Journey</em>
-    </td>
-  </tr>
-</table>
-
-</div>
-
-<img src="assets/divider.svg" width="100%" alt="Section Divider" />
-
-### `06` // CONTRIBUTION ACTIVITY & REPO STREAM
-
-<div align="center">
-
-<!-- Daily Activity Line Graph -->
+<!-- Daily Activity Area Graph [COMP-11 / TEL-05] -->
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Ishan0121&bg_color=00000000&color=E4BFD3&line=E4BFD3&point=F2D8A7&area=true&area_color=1D3459&title_color=EDF2F8&hide_border=true" width="100%" alt="Contribution Activity Graph" />
 
-<br/><br/>
+</div>
 
-<!-- Contribution Snake (Sakura & Midnight Palette) -->
+
+<img src="assets/divider.svg" width="100%" alt="Section Divider" />
+
+### `04` // CONTRIBUTION STREAM
+
+<div align="center">
+
+
+<!-- Contribution Snake (Sakura & Midnight Palette) [COMP-16 / SNAKE-01] -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="assets/github-snake.svg" />
@@ -194,19 +159,23 @@ CS undergraduate from India, building across web, AI, Linux, and embedded system
 
 <img src="assets/divider.svg" width="100%" alt="Section Divider" />
 
-### `07` // CONNECT & COLLABORATE
+### `05` // CONNECT & COLLABORATE
 
 <div align="center">
-  <p>Whether discussing local-first AI architectures, Linux/Wayland workflows, 3D WebGL experiments, or open-source collaborations:</p>
+  <p>Let's connect.</p>
+  
   <p>
-    <a href="https://ishan0121.vercel.app/"><strong>🌐 ishan0121.vercel.app</strong></a> &nbsp;•&nbsp;
-    <a href="https://ishan0121.vercel.app/3d"><strong>🧊 3D WebGL Lab</strong></a> &nbsp;•&nbsp;
-    <a href="https://ishan0121.vercel.app/about"><strong>📖 Engineering Journey</strong></a> &nbsp;•&nbsp;
-    <a href="https://www.linkedin.com/in/ishan-maiti-785212297"><strong>💼 LinkedIn</strong></a> &nbsp;•&nbsp;
-    <a href="https://orcid.org/0009-0001-9389-807X"><strong>🔬 ORCID</strong></a> &nbsp;•&nbsp;
-    <a href="mailto:ishanmaiti1234@gmail.com"><strong>✉️ ishanmaiti1234@gmail.com</strong></a>
+    <a href="https://ishan0121.vercel.app/"><strong>Portfolio</strong></a> &nbsp;•&nbsp;
+    <a href="https://ishan0121.vercel.app/3d"><strong>3D Lab</strong></a> &nbsp;•&nbsp;
+    <a href="https://www.linkedin.com/in/ishan-maiti-785212297"><strong>LinkedIn</strong></a> &nbsp;•&nbsp;
+    <a href="https://orcid.org/0009-0001-9389-807X"><strong>ORCID</strong></a> &nbsp;•&nbsp;
+    <a href="mailto:ishanmaiti1234@gmail.com"><strong>Email</strong></a>
   </p>
 </div>
 
-<!-- Atmospheric Spring Night Footer SVG -->
+<br/>
+
+<!-- Atmospheric Spring Night Footer SVG [COMP-17 / FOOTER-01] -->
 <img src="assets/ishan-footer.svg" width="100%" alt="Spring Night Hairline Footer" />
+<br/>
+<img src="assets/divider-end.svg" width="100%" alt="Section Divider" />

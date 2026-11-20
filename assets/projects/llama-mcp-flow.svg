@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 145" width="440" height="145" role="img" aria-label="Local AI &amp; MCP Architecture Dataflow">
+  <defs>
+    <linearGradient id="cardGrad_flow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0F1F38" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#0B162C" stop-opacity="0.95"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif; }
+  </style>
+
+  <!-- Background -->
+  <rect width="440" height="145" rx="8" fill="url(#cardGrad_flow)" stroke="#1D3459" stroke-width="0.75"/>
+  <line x1="16" y1="0.5" x2="140" y2="0.5" stroke="#89B4FA" stroke-width="0.75"/>
+
+  <!-- Header -->
+  <g transform="translate(18, 22)">
+    <text x="0" y="0" class="sans" font-size="13.5" font-weight="700" fill="#EDF2F8">Local AI Agent Dataflow Pipeline</text>
+    <rect x="330" y="-12" width="76" height="18" rx="9" fill="#0B162C" stroke="#1D3459" stroke-width="0.5"/>
+    <text x="368" y="0" text-anchor="middle" class="mono" font-size="9" fill="#89B4FA">Pipeline v1</text>
+  </g>
+
+  <!-- Flow Boxes -->
+  <g transform="translate(18, 38)">
+    <!-- Box 1 -->
+    <rect x="0" y="0" width="82" height="42" rx="4" fill="#0B162C" stroke="#E4BFD3" stroke-width="0.75"/>
+    <text x="41" y="16" text-anchor="middle" class="mono" font-size="9" font-weight="700" fill="#E4BFD3">llama.cpp</text>
+    <text x="41" y="32" text-anchor="middle" class="mono" font-size="8" fill="#C4D2E3">GGUF Inference</text>
+
+    <!-- Arrow 1 -->
+    <text x="91" y="24" class="mono" font-size="12" fill="#F2D8A7">→</text>
+
+    <!-- Box 2 -->
+    <rect x="106" y="0" width="84" height="42" rx="4" fill="#0B162C" stroke="#F2D8A7" stroke-width="0.75"/>
+    <text x="148" y="16" text-anchor="middle" class="mono" font-size="9" font-weight="700" fill="#F2D8A7">MCP Server</text>
+    <text x="148" y="32" text-anchor="middle" class="mono" font-size="8" fill="#C4D2E3">Context Protocol</text>
+
+    <!-- Arrow 2 -->
+    <text x="199" y="24" class="mono" font-size="12" fill="#89B4FA">→</text>
+
+    <!-- Box 3 -->
+    <rect x="214" y="0" width="84" height="42" rx="4" fill="#0B162C" stroke="#89B4FA" stroke-width="0.75"/>
+    <text x="256" y="16" text-anchor="middle" class="mono" font-size="9" font-weight="700" fill="#89B4FA">Tool Engine</text>
+    <text x="256" y="32" text-anchor="middle" class="mono" font-size="8" fill="#C4D2E3">Custom Tools</text>
+
+    <!-- Arrow 3 -->
+    <text x="307" y="24" class="mono" font-size="12" fill="#A6E3A1">→</text>
+
+    <!-- Box 4 -->
+    <rect x="322" y="0" width="82" height="42" rx="4" fill="#0B162C" stroke="#A6E3A1" stroke-width="0.75"/>
+    <text x="363" y="16" text-anchor="middle" class="mono" font-size="9" font-weight="700" fill="#A6E3A1">Vector DB</text>
+    <text x="363" y="32" text-anchor="middle" class="mono" font-size="8" fill="#C4D2E3">Agent Memory</text>
+  </g>
+
+  <!-- Metrics Row -->
+  <g transform="translate(18, 98)">
+    <text x="0" y="0" class="mono" font-size="9.5" fill="#C4D2E3">Latency: <tspan fill="#A6E3A1">&lt;15ms/tok</tspan></text>
+    <text x="110" y="0" class="mono" font-size="9.5" fill="#C4D2E3">Ctx: <tspan fill="#EDF2F8">32,768</tspan></text>
+    <text x="190" y="0" class="mono" font-size="9.5" fill="#C4D2E3">Transport: <tspan fill="#E4BFD3">JSON-RPC / stdio</tspan></text>
+    <text x="345" y="0" class="mono" font-size="9.5" fill="#F2D8A7">Zero Cloud Dep</text>
+  </g>
+
+  <!-- Footer Hairline -->
+  <line x1="18" y1="114" x2="422" y2="114" stroke="#1D3459" stroke-width="0.5"/>
+  <g transform="translate(18, 132)">
+    <circle cx="4" cy="-4" r="3" fill="#89B4FA"/>
+    <text x="14" y="0" class="mono" font-size="10" fill="#C4D2E3">Autonomous Architecture Flow</text>
+    <text x="404" y="0" text-anchor="end" class="mono" font-size="10" font-weight="600" fill="#EDF2F8">Blueprint ↗</text>
+  </g>
+</svg>

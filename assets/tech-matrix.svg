@@ -1,52 +1,56 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 290" width="100%" height="290">
   <defs>
     <linearGradient id="tmBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0f172a"/>
-      <stop offset="100%" stop-color="#1a1b26"/>
+      <stop offset="0%" stop-color="#0B162C"/>
+      <stop offset="100%" stop-color="#0F1F38"/>
+    </linearGradient>
+    <linearGradient id="cardGrad_tm" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0F1F38" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#0B162C" stop-opacity="0.95"/>
     </linearGradient>
   </defs>
-  <rect width="920" height="290" rx="14" fill="url(#tmBg)" stroke="#292e42" stroke-width="1.5"/>
-  <text x="30" y="36" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="700" fill="#7dcfff">🧩 Engineering Domains &amp; Architecture Matrix</text>
-  <text x="640" y="36" font-family="'JetBrains Mono', monospace" font-size="11.5" fill="#565f89">Software × Hardware × Self-Hosted</text>
-  <line x1="30" y1="50" x2="890" y2="50" stroke="#292e42" stroke-width="1"/>
+  <rect width="920" height="290" rx="12" fill="url(#tmBg)" stroke="#1D3459" stroke-width="0.75"/>
+  <text x="30" y="36" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="700" fill="#EDF2F8">🧩 Engineering Domains &amp; Architecture Matrix</text>
+  <text x="890" y="36" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="11" fill="#C4D2E3" fill-opacity="0.7">Local AI × Linux/Wayland × Web × Embedded</text>
+  <line x1="30" y1="50" x2="890" y2="50" stroke="#1D3459" stroke-width="0.75"/>
 
   <!-- Card 1 -->
   <g transform="translate(30, 66)">
-    <rect width="420" height="96" rx="10" fill="#16161e" stroke="#292e42" stroke-width="1"/>
-    <rect x="0" y="0" width="5" height="96" rx="2.5" fill="#7aa2f7"/>
-    <text x="20" y="26" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="700" fill="#7aa2f7">01 // Local-First AI &amp; Voice Systems (Aisha)</text>
-    <text x="20" y="48" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" fill="#a9b1d6">Modular low-latency voice assistant pipeline uniting Speech-to-Text,</text>
-    <text x="20" y="65" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" fill="#a9b1d6">local LLM inference (Ollama), and neural TTS without cloud lock-in.</text>
-    <text x="20" y="84" font-family="'JetBrains Mono', monospace" font-size="11" fill="#7dcfff">Python • Ollama • Local STT/TTS • Docker • NumPy/Pandas</text>
+    <rect width="420" height="96" rx="8" fill="url(#cardGrad_tm)" stroke="#1D3459" stroke-width="0.75"/>
+    <rect x="0" y="0" width="4" height="96" rx="2" fill="#E4BFD3"/>
+    <text x="20" y="26" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13.5" font-weight="700" fill="#EDF2F8">01 // Local AI &amp; Model Context Protocol (MCP)</text>
+    <text x="20" y="48" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11.5" fill="#C4D2E3">High-throughput quantized LLM inference via llama.cpp (GGUF),</text>
+    <text x="20" y="65" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11.5" fill="#C4D2E3" fill-opacity="0.85">custom MCP servers, agentic memory stores &amp; tool-calling loops.</text>
+    <text x="20" y="84" font-family="'JetBrains Mono', monospace" font-size="10.5" fill="#E4BFD3">llama.cpp • MCP Protocol • Python • C++ • Agentic Memory</text>
   </g>
 
   <!-- Card 2 -->
   <g transform="translate(470, 66)">
-    <rect width="420" height="96" rx="10" fill="#16161e" stroke="#292e42" stroke-width="1"/>
-    <rect x="0" y="0" width="5" height="96" rx="2.5" fill="#bb9af7"/>
-    <text x="20" y="26" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="700" fill="#bb9af7">02 // Linux, Wayland &amp; Desktop Shell Engineering</text>
-    <text x="20" y="48" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" fill="#a9b1d6">3+ years customizing Arch/Garuda Linux, Wayland compositors, SDDM/GDM</text>
-    <text x="20" y="65" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" fill="#a9b1d6">display managers, and authoring official Noctalia Shell plugins.</text>
-    <text x="20" y="84" font-family="'JetBrains Mono', monospace" font-size="11" fill="#bb9af7">Arch/Garuda • Wayland • Noctalia v5 • QML • Luau • Bash</text>
+    <rect width="420" height="96" rx="8" fill="url(#cardGrad_tm)" stroke="#1D3459" stroke-width="0.75"/>
+    <rect x="0" y="0" width="4" height="96" rx="2" fill="#C4D2E3"/>
+    <text x="20" y="26" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13.5" font-weight="700" fill="#EDF2F8">02 // Linux, Wayland &amp; Desktop Shell Engineering</text>
+    <text x="20" y="48" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11.5" fill="#C4D2E3">3+ years customizing Arch/Garuda Linux, Wayland compositors, SDDM/GDM</text>
+    <text x="20" y="65" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11.5" fill="#C4D2E3" fill-opacity="0.85">display managers, and authoring official Noctalia Shell plugins.</text>
+    <text x="20" y="84" font-family="'JetBrains Mono', monospace" font-size="10.5" fill="#C4D2E3">Arch/Garuda • Wayland • Noctalia v5 • QML • Luau • Bash</text>
   </g>
 
   <!-- Card 3 -->
   <g transform="translate(30, 176)">
-    <rect width="420" height="96" rx="10" fill="#16161e" stroke="#292e42" stroke-width="1"/>
-    <rect x="0" y="0" width="5" height="96" rx="2.5" fill="#9ece6a"/>
-    <text x="20" y="26" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="700" fill="#9ece6a">03 // Full-Stack Web &amp; Interactive 3D WebGL</text>
-    <text x="20" y="48" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" fill="#a9b1d6">Modern reactive web interfaces, real-time simulations, and interactive</text>
-    <text x="20" y="65" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" fill="#a9b1d6">3D WebGL experiences connecting UI, APIs, and relational/NoSQL stores.</text>
-    <text x="20" y="84" font-family="'JetBrains Mono', monospace" font-size="11" fill="#9ece6a">Next.js • React • TypeScript • Tailwind • Three.js • PostgreSQL</text>
+    <rect width="420" height="96" rx="8" fill="url(#cardGrad_tm)" stroke="#1D3459" stroke-width="0.75"/>
+    <rect x="0" y="0" width="4" height="96" rx="2" fill="#F2D8A7"/>
+    <text x="20" y="26" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13.5" font-weight="700" fill="#EDF2F8">03 // Full-Stack Web &amp; Interactive 3D WebGL</text>
+    <text x="20" y="48" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11.5" fill="#C4D2E3">Modern reactive web frontends, real-time 3D WebGL simulations,</text>
+    <text x="20" y="65" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11.5" fill="#C4D2E3" fill-opacity="0.85">resilient REST/GraphQL APIs, and relational/NoSQL database stores.</text>
+    <text x="20" y="84" font-family="'JetBrains Mono', monospace" font-size="10.5" fill="#F2D8A7">Next.js • React • TypeScript • Three.js • PostgreSQL • Node</text>
   </g>
 
   <!-- Card 4 -->
   <g transform="translate(470, 176)">
-    <rect width="420" height="96" rx="10" fill="#16161e" stroke="#292e42" stroke-width="1"/>
-    <rect x="0" y="0" width="5" height="96" rx="2.5" fill="#e0af68"/>
-    <text x="20" y="26" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="700" fill="#e0af68">04 // Embedded Hardware &amp; Self-Hosted Infra</text>
-    <text x="20" y="48" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" fill="#a9b1d6">Physical computing with ESP32-S3 microcontrollers, I2S audio/OLED</text>
-    <text x="20" y="65" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" fill="#a9b1d6">peripherals, containerized services (Immich), and network security.</text>
-    <text x="20" y="84" font-family="'JetBrains Mono', monospace" font-size="11" fill="#e0af68">ESP32-S3 • C/C++ • Docker • Cloudflare • Self-Hosted Systems</text>
+    <rect width="420" height="96" rx="8" fill="url(#cardGrad_tm)" stroke="#1D3459" stroke-width="0.75"/>
+    <rect x="0" y="0" width="4" height="96" rx="2" fill="#89B4FA"/>
+    <text x="20" y="26" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13.5" font-weight="700" fill="#EDF2F8">04 // Embedded Hardware &amp; Self-Hosted Infra</text>
+    <text x="20" y="48" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11.5" fill="#C4D2E3">Physical computing with ESP32 microcontrollers, I2S audio/sensors,</text>
+    <text x="20" y="65" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11.5" fill="#C4D2E3" fill-opacity="0.85">containerized homelab services (Docker/Immich), and Cloudflare tunnels.</text>
+    <text x="20" y="84" font-family="'JetBrains Mono', monospace" font-size="10.5" fill="#89B4FA">ESP32-S3 • C/C++ • Docker • Cloudflare • Self-Hosted Systems</text>
   </g>
 </svg>

@@ -1,82 +1,78 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="100%" height="300">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="100%" height="300" role="img" aria-label="Ishan Maiti Hero Terminal Console">
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0b0f19"/>
-      <stop offset="50%" stop-color="#111827"/>
-      <stop offset="100%" stop-color="#1a1b26"/>
+    <linearGradient id="bgGrad_hb" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#081020"/>
+      <stop offset="50%" stop-color="#0B162C"/>
+      <stop offset="100%" stop-color="#0F1F38"/>
     </linearGradient>
-    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#7aa2f7"/>
-      <stop offset="50%" stop-color="#bb9af7"/>
-      <stop offset="100%" stop-color="#2ac3de"/>
+    <linearGradient id="accentGrad_hb" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E4BFD3"/>
+      <stop offset="50%" stop-color="#C4D2E3"/>
+      <stop offset="100%" stop-color="#F2D8A7"/>
     </linearGradient>
-    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.7"/>
-      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.9"/>
+    <linearGradient id="cardGrad_hb" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0F1F38" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#0B162C" stop-opacity="0.95"/>
     </linearGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#334155" stroke-width="0.6" stroke-opacity="0.35"/>
+    <pattern id="grid_hb" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#1D3459" stroke-width="0.5" stroke-opacity="0.4"/>
     </pattern>
-    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+    <filter id="glow_hb" x="-20%" y="-20%" width="140%" height="140%">
       <feGaussianBlur stdDeviation="24" result="blur"/>
       <feComposite in="SourceGraphic" in2="blur" operator="over"/>
     </filter>
   </defs>
 
-  <!-- Background -->
-  <rect width="1000" height="300" rx="16" fill="url(#bgGrad)" stroke="#292e42" stroke-width="1.5"/>
-  <rect width="1000" height="300" rx="16" fill="url(#grid)"/>
+  <!-- Background Canvas -->
+  <rect width="1000" height="300" rx="14" fill="url(#bgGrad_hb)" stroke="#1D3459" stroke-width="0.75"/>
+  <rect width="1000" height="300" rx="14" fill="url(#grid_hb)"/>
 
   <!-- Ambient Glows -->
-  <circle cx="850" cy="70" r="130" fill="#7aa2f7" opacity="0.10" filter="url(#glow)"/>
-  <circle cx="160" cy="240" r="140" fill="#bb9af7" opacity="0.08" filter="url(#glow)"/>
+  <circle cx="850" cy="70" r="130" fill="#E4BFD3" opacity="0.06" filter="url(#glow_hb)"/>
+  <circle cx="160" cy="240" r="140" fill="#1D3459" opacity="0.25" filter="url(#glow_hb)"/>
 
   <!-- Top Terminal Bar -->
-  <rect x="28" y="22" width="944" height="34" rx="8" fill="#16161e" stroke="#292e42" stroke-width="1"/>
-  <circle cx="48" cy="39" r="5.5" fill="#f7768e"/>
-  <circle cx="66" cy="39" r="5.5" fill="#e0af68"/>
-  <circle cx="84" cy="39" r="5.5" fill="#9ece6a"/>
-  <text x="106" y="43" font-family="'JetBrains Mono', 'Fira Code', 'Segoe UI Mono', monospace" font-size="12.5" fill="#7dcfff">ishan@garuda-linux</text>
-  <text x="242" y="43" font-family="'JetBrains Mono', 'Fira Code', 'Segoe UI Mono', monospace" font-size="12.5" fill="#565f89">:</text>
-  <text x="252" y="43" font-family="'JetBrains Mono', 'Fira Code', 'Segoe UI Mono', monospace" font-size="12.5" fill="#bb9af7">~/systems-portfolio</text>
-  <text x="394" y="43" font-family="'JetBrains Mono', 'Fira Code', 'Segoe UI Mono', monospace" font-size="12.5" fill="#c0caf5">$ ./init_profile.sh --mode=production</text>
+  <rect x="28" y="22" width="944" height="34" rx="8" fill="#0B162C" stroke="#1D3459" stroke-width="0.75"/>
+  <circle cx="48" cy="39" r="5" fill="#E4BFD3" opacity="0.9"/>
+  <circle cx="66" cy="39" r="5" fill="#F2D8A7" opacity="0.9"/>
+  <circle cx="84" cy="39" r="5" fill="#C4D2E3" opacity="0.9"/>
+  <text x="106" y="43" font-family="'JetBrains Mono', 'Fira Code', 'SF Mono', monospace" font-size="12" fill="#C4D2E3">ishan@garuda-arch</text>
+  <text x="240" y="43" font-family="'JetBrains Mono', 'Fira Code', 'SF Mono', monospace" font-size="12" fill="#1D3459">:</text>
+  <text x="250" y="43" font-family="'JetBrains Mono', 'Fira Code', 'SF Mono', monospace" font-size="12" fill="#E4BFD3">~/zen-workspace</text>
+  <text x="390" y="43" font-family="'JetBrains Mono', 'Fira Code', 'SF Mono', monospace" font-size="12" fill="#EDF2F8">$ ./init_profile.sh --runtime=llama.cpp --protocol=mcp</text>
 
   <!-- Status Pill -->
-  <rect x="762" y="28" width="198" height="22" rx="11" fill="#1a2b2b" stroke="#2ac3de" stroke-width="0.8"/>
-  <circle cx="776" cy="39" r="4" fill="#9ece6a"/>
-  <text x="788" y="43" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#a9b1d6">Open to Collaborations</text>
+  <rect x="768" y="28" width="192" height="22" rx="11" fill="#0F1F38" stroke="#1D3459" stroke-width="0.75"/>
+  <circle cx="782" cy="39" r="3.5" fill="#F2D8A7"/>
+  <text x="794" y="43" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="11" font-weight="600" fill="#C4D2E3">Open to Collaborations</text>
 
   <!-- Main Heading -->
-  <text x="44" y="114" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="40" font-weight="800" fill="#ffffff" letter-spacing="-0.5">Ishan Maiti</text>
-  <text x="262" y="114" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="22" font-weight="600" fill="url(#accentGrad)">@Ishan0121</text>
+  <text x="44" y="114" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="38" font-weight="800" fill="#EDF2F8" letter-spacing="-0.5">Ishan Maiti</text>
+  <text x="270" y="114" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="20" font-weight="600" fill="url(#accentGrad_hb)">@Ishan0121</text>
 
   <!-- Subtitle -->
-  <text x="44" y="148" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="600" fill="#7aa2f7">Computer Science Student &amp; Creative Systems Developer</text>
-  <text x="44" y="176" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13.5" fill="#9aa5ce">Building at the intersection of local-first AI, Linux/Wayland desktop ecosystems, full-stack web, and ESP32-S3 hardware.</text>
+  <text x="44" y="146" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="16" font-weight="600" fill="#E4BFD3">Computer Science Scholar &amp; Creative Systems Developer</text>
+  <text x="44" y="174" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="13.5" fill="#C4D2E3" fill-opacity="0.8">Architecting local AI runtimes with llama.cpp, custom MCP servers, full-stack reactive web applications &amp; Linux desktop systems.</text>
 
   <!-- Domain Pills -->
   <g transform="translate(44, 200)">
-    <rect x="0" y="0" width="205" height="32" rx="6" fill="url(#cardGrad)" stroke="#3b4261" stroke-width="1"/>
-    <text x="14" y="20" font-family="'JetBrains Mono', monospace" font-size="12" fill="#7dcfff">⚡ Local-First &amp; Voice AI</text>
+    <rect x="0" y="0" width="215" height="32" rx="6" fill="url(#cardGrad_hb)" stroke="#1D3459" stroke-width="0.75"/>
+    <text x="14" y="20" font-family="'JetBrains Mono', monospace" font-size="11.5" fill="#E4BFD3">⚡ Local AI &amp; MCP Agents</text>
 
-    <rect x="217" y="0" width="215" height="32" rx="6" fill="url(#cardGrad)" stroke="#3b4261" stroke-width="1"/>
-    <text x="231" y="20" font-family="'JetBrains Mono', monospace" font-size="12" fill="#bb9af7">🐧 Linux &amp; Wayland Plugins</text>
+    <rect x="227" y="0" width="215" height="32" rx="6" fill="url(#cardGrad_hb)" stroke="#1D3459" stroke-width="0.75"/>
+    <text x="241" y="20" font-family="'JetBrains Mono', monospace" font-size="11.5" fill="#C4D2E3">🐧 Linux &amp; Wayland Shells</text>
 
-    <rect x="444" y="0" width="210" height="32" rx="6" fill="url(#cardGrad)" stroke="#3b4261" stroke-width="1"/>
-    <text x="458" y="20" font-family="'JetBrains Mono', monospace" font-size="12" fill="#9ece6a">🌐 Next.js &amp; 3D WebGL</text>
+    <rect x="454" y="0" width="215" height="32" rx="6" fill="url(#cardGrad_hb)" stroke="#1D3459" stroke-width="0.75"/>
+    <text x="468" y="20" font-family="'JetBrains Mono', monospace" font-size="11.5" fill="#F2D8A7">🌐 Full-Stack &amp; 3D Web</text>
 
-    <rect x="666" y="0" width="210" height="32" rx="6" fill="url(#cardGrad)" stroke="#3b4261" stroke-width="1"/>
-    <text x="680" y="20" font-family="'JetBrains Mono', monospace" font-size="12" fill="#e0af68">🔧 ESP32-S3 &amp; Self-Hosted</text>
+    <rect x="681" y="0" width="225" height="32" rx="6" fill="url(#cardGrad_hb)" stroke="#1D3459" stroke-width="0.75"/>
+    <text x="695" y="20" font-family="'JetBrains Mono', monospace" font-size="11.5" fill="#89B4FA">🔧 Systems &amp; Self-Hosted</text>
   </g>
 
   <!-- Bottom Telemetry Strip -->
-  <line x1="44" y1="252" x2="956" y2="252" stroke="#292e42" stroke-width="1"/>
-  <text x="44" y="276" font-family="'JetBrains Mono', monospace" font-size="12" fill="#565f89">LOCATION:</text>
-  <text x="115" y="276" font-family="'JetBrains Mono', monospace" font-size="12" fill="#c0caf5">West Bengal, India</text>
-
-  <text x="280" y="276" font-family="'JetBrains Mono', monospace" font-size="12" fill="#565f89">EDUCATION:</text>
-  <text x="362" y="276" font-family="'JetBrains Mono', monospace" font-size="12" fill="#c0caf5">B.Sc. CS @ Vidyasagar University</text>
-
-  <text x="635" y="276" font-family="'JetBrains Mono', monospace" font-size="12" fill="#565f89">PORTFOLIO:</text>
-  <text x="718" y="276" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700" fill="#7dcfff">ishan0121.vercel.app ↗</text>
+  <line x1="44" y1="252" x2="956" y2="252" stroke="#1D3459" stroke-width="0.75"/>
+  <text x="44" y="276" font-family="'JetBrains Mono', monospace" font-size="11" fill="#C4D2E3" fill-opacity="0.6">STATUS: <tspan fill="#EDF2F8">Active // Open Source</tspan></text>
+  <text x="310" y="276" font-family="'JetBrains Mono', monospace" font-size="11" fill="#C4D2E3" fill-opacity="0.6">ACADEMIC: <tspan fill="#EDF2F8">Vidyasagar University (2023–2027)</tspan></text>
+  <text x="700" y="276" font-family="'JetBrains Mono', monospace" font-size="11" fill="#C4D2E3" fill-opacity="0.6">PORTFOLIO: <tspan fill="#E4BFD3">ishan0121.vercel.app</tspan></text>
+  <text x="956" y="276" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="11" fill="#F2D8A7">● STABLE // v2026.11</text>
 </svg>

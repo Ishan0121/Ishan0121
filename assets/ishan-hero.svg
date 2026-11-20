@@ -81,7 +81,7 @@
   <circle cx="54" cy="38" r="3" fill="#F2D8A7" opacity="0.9">
     <animate attributeName="opacity" values="0.9;0.35;0.9" dur="3.2s" repeatCount="indefinite"/>
   </circle>
-  <text x="66" y="42" class="mono" font-size="11" fill="#C4D2E3" fill-opacity="0.85" letter-spacing="0.5">SYSTEM ACTIVE // ARCHITECTURAL KERNEL // 22°18'N 87°44'E</text>
+  <text x="66" y="42" class="mono" font-size="11" fill="#C4D2E3" fill-opacity="0.85" letter-spacing="0.5">SYSTEM ACTIVE // ARCHITECTURAL KERNEL // OPEN SOURCE</text>
 
   <!-- Right Telemetry Status -->
   <text x="1144" y="42" text-anchor="end" class="mono" font-size="11" fill="#E4BFD3" fill-opacity="0.85" letter-spacing="0.5">B.SC. COMPUTER SCIENCE // VIDYASAGAR UNIV</text>
@@ -132,10 +132,10 @@
 
   <!-- Architectural Tagline -->
   <text x="50" y="204" class="sans" font-size="13.5" fill="#C4D2E3" fill-opacity="0.72">
-    Architecting local-first AI pipelines, Wayland/desktop shell extensions, and reactive 3D WebGL interfaces.
+    Architecting local AI runtimes with llama.cpp, Model Context Protocol (MCP) servers, and agentic memory.
   </text>
   <text x="50" y="224" class="sans" font-size="13.5" fill="#C4D2E3" fill-opacity="0.72">
-    Bridging high-level modern reactive web systems with bare-metal Linux infrastructure and microcontrollers.
+    Crafting high-throughput full-stack reactive web applications, Wayland desktop shells, and embedded systems.
   </text>
 
   <!-- 4 Architectural Feature Cards (Hairline Zen Frames) -->
@@ -144,9 +144,9 @@
     <g transform="translate(0, 0)">
       <rect width="260" height="74" rx="6" fill="#0B162C" fill-opacity="0.75" stroke="#C4D2E3" stroke-width="0.6" stroke-opacity="0.25"/>
       <line x1="0" y1="0" x2="26" y2="0" stroke="#E4BFD3" stroke-width="1.2"/>
-      <text x="14" y="24" class="mono" font-size="10" font-weight="700" fill="#E4BFD3" letter-spacing="0.8">01 // LOCAL-FIRST AI</text>
-      <text x="14" y="44" class="sans" font-size="12" font-weight="600" fill="#EDF2F8">Aisha Voice Assistant</text>
-      <text x="14" y="60" class="mono" font-size="10" fill="#C4D2E3" fill-opacity="0.7">Ollama • Local STT/TTS • Python</text>
+      <text x="14" y="24" class="mono" font-size="10" font-weight="700" fill="#E4BFD3" letter-spacing="0.8">01 // LOCAL AI &amp; MCP</text>
+      <text x="14" y="44" class="sans" font-size="12" font-weight="600" fill="#EDF2F8">llama.cpp &amp; MCP Agents</text>
+      <text x="14" y="60" class="mono" font-size="10" fill="#C4D2E3" fill-opacity="0.7">GGUF • Agent Memory • Tool Use</text>
     </g>
 
     <!-- Card 2 -->
@@ -184,7 +184,7 @@
     <text x="0" y="0" class="mono" font-size="11" fill="#C4D2E3" fill-opacity="0.65">INDEX: <tspan fill="#EDF2F8">0121</tspan></text>
     <text x="120" y="0" class="mono" font-size="11" fill="#C4D2E3" fill-opacity="0.65">PORTFOLIO: <tspan fill="#E4BFD3">ishan0121.vercel.app</tspan></text>
     <text x="410" y="0" class="mono" font-size="11" fill="#C4D2E3" fill-opacity="0.65">ORCID: <tspan fill="#EDF2F8">0009-0001-9389-807X</tspan></text>
-    <text x="720" y="0" class="mono" font-size="11" fill="#C4D2E3" fill-opacity="0.65">AFFILIATION: <tspan fill="#EDF2F8">Debra Thana Sahid K.S.M.</tspan></text>
+    <text x="720" y="0" class="mono" font-size="11" fill="#C4D2E3" fill-opacity="0.65">EDUCATION: <tspan fill="#EDF2F8">Vidyasagar University</tspan></text>
     <text x="1050" y="0" text-anchor="end" class="mono" font-size="11" fill="#F2D8A7" fill-opacity="0.85">● STABLE // v2026.11</text>
   </g>
 
